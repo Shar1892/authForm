@@ -17,7 +17,7 @@ const Auth = ({popupOpen}) => {
 	return (
 		<main className='auth'>
 			<h1 className='auth__title'>Вход</h1>
-			<form className='auth__form' onSubmit={handleSubmit}>
+			<form className='auth__form' onSubmit={handleSubmit} noValidate>
 				<div className='auth__inputs-container'>
 					<div className='auth__input-container'>
 						<input

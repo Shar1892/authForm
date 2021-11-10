@@ -98,6 +98,7 @@
 
 .auth__submin-button_disabled {
 	background-color: #949396;
+	pointer-events: none;
 }
 
 .auth__submin-button_disabled:hover {
