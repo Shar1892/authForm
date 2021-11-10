@@ -1,3 +1,7 @@
+Компонент форма аутентификации по почте и паролю с валидацией при вводе. Валидация вынесена в отдельный модуль.
+Дополнительно сделан попап для вывода результатов действий, закрывается по клику вне попапа.
+GitHub pages https://shar1892.github.io/authForm/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
