@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/authForm/static/css/main.a4c28b0a.chunk.css",
+    "main.js": "/authForm/static/js/main.ddfecae9.chunk.js",
+    "main.js.map": "/authForm/static/js/main.ddfecae9.chunk.js.map",
+    "runtime-main.js": "/authForm/static/js/runtime-main.9367e29f.js",
+    "runtime-main.js.map": "/authForm/static/js/runtime-main.9367e29f.js.map",
+    "static/js/2.44483e42.chunk.js": "/authForm/static/js/2.44483e42.chunk.js",
+    "static/js/2.44483e42.chunk.js.map": "/authForm/static/js/2.44483e42.chunk.js.map",
+    "static/js/3.90d06e16.chunk.js": "/authForm/static/js/3.90d06e16.chunk.js",
+    "static/js/3.90d06e16.chunk.js.map": "/authForm/static/js/3.90d06e16.chunk.js.map",
+    "index.html": "/authForm/index.html",
+    "static/css/main.a4c28b0a.chunk.css.map": "/authForm/static/css/main.a4c28b0a.chunk.css.map",
+    "static/js/2.44483e42.chunk.js.LICENSE.txt": "/authForm/static/js/2.44483e42.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9367e29f.js",
+    "static/js/2.44483e42.chunk.js",
+    "static/css/main.a4c28b0a.chunk.css",
+    "static/js/main.ddfecae9.chunk.js"
+  ]
+}
