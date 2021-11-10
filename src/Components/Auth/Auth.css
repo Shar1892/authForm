@@ -1,0 +1,156 @@
+.auth {
+	width: 80%;
+	max-width: 300px;
+	height: 60vh;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	/*justify-content: space-around;*/
+	align-items: center;
+	padding: 20px 10px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.auth__title {
+	margin: 0;
+	font-size: 30px;
+	line-height: 35px;
+	color: #000000;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 600;
+	-webkit-font-smoothing: antialiased;
+}
+
+.auth__form {
+	margin: 30px 0;
+	width: 100%;
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.auth__inputs-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.auth__input-container {
+	width: 100%;
+	height: 55px;
+	display: flex;
+	flex-direction: column;
+}
+
+.auth__input {
+	margin-bottom: 3px;
+	padding-left: 5px;
+	font-size: 16px;
+	line-height: 19px;
+	background-color: #dedde2;
+	color: #000000;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: 500;
+	-webkit-font-smoothing: antialiased;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+
+.auth__input-error {
+	margin: 0;
+	font-size: 11px;
+	line-height: 13px;
+	color: #ff0044;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+
+.auth__submin-button {
+	min-height: 45px;
+	width: 45%;
+	background-color: #4291db;
+	color: #ffffff;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	line-height: 19px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: normal;
+	font-weight: 500;
+	-webkit-font-smoothing: antialiased;
+}
+
+.auth__submin-button:hover {
+	cursor: pointer;
+}
+
+.auth__submin-button_disabled {
+	background-color: #949396;
+}
+
+.auth__submin-button_disabled:hover {
+	cursor: default;
+}
+
+.auth__to-register {
+	margin: 0;
+	font-size: 16px;
+	line-height: 19px;
+	color: #000000;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+
+.auth__to-register:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+	.auth {
+		max-width: 350px;
+		height: 450px;
+		padding: 25px 15px;
+		border-radius: 15px;
+	}
+
+	.auth__title {
+		font-size: 35px;
+		line-height: 40px;
+	}
+
+	.auth__form {
+		margin: 40px 0;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.auth {
+		max-width: 500px;
+		height: 550px;
+		padding: 30px 20px;
+		border-radius: 20px;
+	}
+
+	.auth__title {
+		font-size: 40px;
+		line-height: 45px;
+	}
+
+	.auth__form {
+		margin: 50px 0;
+	}
+}
